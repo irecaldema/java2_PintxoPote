@@ -2,8 +2,8 @@ class Cartilla {
     private boolean[] sellos; //array de 10, para guardar los sellos, cada, item sera un bar
     
     //metodo sellar
-    public void sellar(boolean sello) {
-        boolean[] sellos ;
+    public void sellar(int id) {
+        sellos[id]=true;
 	}
 
     //metodo devolver dto correspondiente
