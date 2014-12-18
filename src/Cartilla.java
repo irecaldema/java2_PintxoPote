@@ -7,8 +7,8 @@ class Cartilla {
 	}
 
     //metodo devolver dto correspondiente
-	public boolean getSello(int num) {
-        return sellos[num];
+	public boolean getSello(int id) {
+        return sellos[id];
 	}
 
     //metodos getter/setter
