@@ -4,24 +4,24 @@ class Cliente {
     private Cartilla cartilla;
     
     //metodos getter/setter
-	public void setId (int id) {
+	public void setId(int id) {
 		this.id = id;
 	}
-	public int getId () {
+	public int getId() {
 		return id;
 	}
 
-	public void setNombre (String nombre) {
+	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public String getNombre () {
+	public String getNombre() {
 		return nombre;
 	}
 
-	public void setCartilla (Cartilla cartilla) {
+	public void setCartilla(Cartilla cartilla) {
 		this.cartilla = cartilla;
 	}
-	public Cartilla getCartilla () {
+	public Cartilla getCartilla() {
 		return cartilla;
 	}	
 }

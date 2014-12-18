@@ -4,24 +4,24 @@ class PintxoPote {
     private double precio;
     
     //metodo getter/setter
-	public void setPintxo (Pintxo pintxo) {
+	public void setPintxo(Pintxo pintxo) {
 		this.pintxo = pintxo;
 	}
-	public Pintxo getPintxo () {
+	public Pintxo getPintxo() {
 		return pintxo;
 	}
 
-	public void setPote (Pote pote) {
+	public void setPote(Pote pote) {
 		this.pote = pote;
 	}
-	public Pote getPote () {
+	public Pote getPote() {
 		return pote;
 	}
 
-	public void setPrecio (Double precio) {
+	public void setPrecio(Double precio) {
 		this.precio = precio;
 	}
-	public Double getPrecio () {
+	public Double getPrecio() {
 		return precio;
 	}
 } 
