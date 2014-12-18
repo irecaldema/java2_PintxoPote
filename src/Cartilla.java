@@ -7,15 +7,15 @@ class Cartilla {
 	}
 
     //metodo devolver dto correspondiente
-	public int getSello(int num) {
+	public boolean getSello(int num) {
         return sellos[num];
 	}
 
     //metodos getter/setter
     public void setSellos(boolean[] sellos) {
-        this.sellos = selllos;
+        this.sellos = sellos;
 	}
-	public int getSellos() {
+	public boolean[] getSellos() {
         return sellos;
 	}
 }
