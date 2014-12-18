@@ -1,8 +1,17 @@
 class Cuenta{
+    private ArrayList <PintxoPote> cuenta;
 
-private ArrayList <PintxoPote> cuenta;
+    //metodos getter/setter
+	public void setCuenta (ArrayList <PintxoPote> cuenta) {
+		this.cuenta = cuenta;
+	}
 
-//metodos getter/setter
-// metodo imprimir en pantalla
-
+	public ArrayList <PintxoPote> getCuenta () {
+		return cuenta;
+	}
+	
+    // metodo imprimir en pantalla
+	public void impr_pant () {
+		System.out.println("La cuenta es de "+this.cuenta+" euros.");
+	}
 }
