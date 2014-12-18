@@ -22,7 +22,6 @@ class Cliente {
 		this.cartilla = cartilla;
 	}
 	public Cartilla getCartilla () {
-
 		return cartilla;
 	}	
 }
