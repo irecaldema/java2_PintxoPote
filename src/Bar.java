@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.io.FileReader;
+import java.io.BufferedReader;
 class Bar {
     private int id;
     private String nombre;
